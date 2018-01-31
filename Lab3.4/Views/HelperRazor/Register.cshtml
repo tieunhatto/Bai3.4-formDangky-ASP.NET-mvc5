@@ -1,0 +1,63 @@
+﻿
+@{
+    ViewBag.Title = "Register";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Thông tin đăng ký</h2>
+<table class="table table-bordered">
+    <tr>
+        <td>Tên đơn vị tuyển :</td>
+        <td>@TempData["UNameDV"]</td>
+    </tr>
+
+    <tr>
+        <td>Số lượng nhân viên :</td>
+        <td>@TempData["SLNV"]</td>
+    </tr>
+
+    <tr>
+        <td>Địa chỉ :</td>
+        <td>@TempData["Address"]</td>
+    </tr>
+
+    <tr>
+        <td>Người liên hệ :</td>
+        <td>@TempData["NguoiLH"]</td>
+    </tr>
+
+    <tr>
+        <td>Số điện thoại :</td>
+        <td>@TempData["SDT"]</td>
+    </tr>
+
+    <tr>
+        <td>Số Fax :</td>
+        <td>@TempData["Fax"]</td>
+    </tr>
+
+    <tr>
+        <td>Email :</td>
+        <td>@TempData["Email"]</td>
+    </tr>
+
+    <tr>
+        <td>Địa chỉ Website :</td>
+        <td>@TempData["DCWeb"]</td>
+    </tr>
+
+    <tr>
+        <td>Tên đăng nhập :</td>
+        <td>@TempData["UNameDN"]</td>
+    </tr>
+
+    <tr>
+        <td>Mật khẩu :</td>
+        <td>@TempData["MK"]</td>
+    </tr>
+
+    <tr>
+        <td>Nhận thư điện tử :</td>
+        <td>@TempData["letter"]</td>
+    </tr>
+</table>
